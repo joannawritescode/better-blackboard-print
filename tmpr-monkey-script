@@ -1,0 +1,20 @@
+// ==UserScript==
+// @name         TEST
+// @namespace    http://tampermonkey.net/
+// @version      2026-03-05
+// @description  try to take over the world!
+// @author       You
+// @match *://*/*
+// @match https://*/*
+// @match http://*/foo*
+// @match https://acconline.austincc.edu/ultra/courses/*/outline/assessment/*/overview/student-submission-view
+// @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    // Your code here...
+    alert("TEST");
+})();
